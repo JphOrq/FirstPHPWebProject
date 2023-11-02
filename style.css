@@ -1,0 +1,112 @@
+@font-face {
+  font-family: SpaceX;
+  src: url(SpaceX.ttf);
+  font-weight: bold;
+}
+
+* {
+  color: white;
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+h1,
+h2 {
+  font-family: cursive;
+  font-weight: 900;
+  font-family: SpaceX;
+  src: url(SpaceX.ttf);
+  font-weight: bold;
+}
+
+.white-text {
+  color: white;
+}
+
+.phpStyle,
+p {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: black;
+}
+
+.custom-link:hover {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: 0.2s;
+}
+
+.button {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+}
+
+.allForm {
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px;
+  font-family: cursive;
+}
+
+.allForm input[type="submit"] {
+  cursor: pointer;
+}
+
+.allForm input[type="submit"]:hover {
+  color: black;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.clock {
+  position: fixed;
+  top: 95%;
+  right: 1%;
+  transform: translateX(-10%) translateY(-50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1px;
+}
+
+table {
+  width: 99%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+/* .phpStyle {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+} */
