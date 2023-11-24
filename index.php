@@ -1192,8 +1192,8 @@ $result = mysqli_query($con, $query);
             <?php
             $servername = "localhost"; // Your MySQL server address
             $username = "jphorq"; // Your MySQL username
-            $password = '!j0$ephOtep02/>'; // Your MySQL password
-            $database = "phpwebappproject1"; // Your Database name
+            $password = 'j0$ephOtep02'; // Your MySQL password
+            $database = "phpwebappproject-001"; // Your Database name
             
             // Create a MySQL connection
             $conn = new mysqli($servername, $username, $password, $database);
